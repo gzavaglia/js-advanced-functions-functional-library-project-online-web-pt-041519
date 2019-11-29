@@ -8,10 +8,9 @@ const fi = (function() {
       
       const newCollection = Object.values(collection)
       
-      for (let i = 0; i < collection.length; i++)
+      for (let i = 0; i < newCollection.length; i++)
         {callback(newCollection[i])}
 
-      
       return collection
     },
 
