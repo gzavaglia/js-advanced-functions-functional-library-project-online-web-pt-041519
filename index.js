@@ -14,7 +14,7 @@ const fi = (function() {
       return collection
     },
 
-    map: function() {
+    map: function(collection, callback) {
       const newCollection = Object.values(collection)
       
       for (let i = 0; i < newCollection.length; i++)
