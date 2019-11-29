@@ -15,7 +15,12 @@ const fi = (function() {
     },
 
     map: function() {
+      const newCollection = Object.values(collection)
+      
+      for (let i = 0; i < newCollection.length; i++)
+        {callback(newCollection[i])}
 
+      return newCollection
     },
 
     reduce: function() {
