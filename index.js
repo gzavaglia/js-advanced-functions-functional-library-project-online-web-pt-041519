@@ -6,6 +6,8 @@ const fi = (function() {
 
     each: function(collection, callback) {
       
+      newCollection = Object.
+      
       for (let i = 0; i < collection.length; i++)
         {callback(collection[i])}
 
