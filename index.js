@@ -17,7 +17,7 @@ const fi = (function() {
     map: function(collection, callback) {
       const newCollection = Object.values(collection)
       
-      for (let i = 0; i < newCollection.length; i++)
+      for (let i = 0; i < collection.length; i++)
         {newCollection.push(callback(collection[i]))}
 
       return newCollection
