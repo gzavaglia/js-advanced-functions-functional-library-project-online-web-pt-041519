@@ -16,11 +16,12 @@ const fi = (function() {
 
     map: function(collection, callback) {
       const newCollection = Object.values(collection)
+      const newArray = []
       
       for (let i = 0; i < collection.length; i++)
-        {newCollection.push(callback(collection[i]))}
+        {newArray.push(callback(newCollection[i]))}
 
-      return newCollection
+      return newArray
     },
 
     reduce: function() {
