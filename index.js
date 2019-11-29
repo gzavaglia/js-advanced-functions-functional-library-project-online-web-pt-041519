@@ -21,7 +21,7 @@ const fi = (function() {
       for (let i = 0; i < collection.length; i++)
         {newArray.push(callback(newCollection[i]))}
 
-      return newArray
+      return newCollection
     },
 
     reduce: function() {
